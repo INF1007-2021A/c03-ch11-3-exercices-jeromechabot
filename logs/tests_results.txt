@@ -1,0 +1,20 @@
+test_add_valid (__main__.TestMatrix) ... ok
+test_get_valid (__main__.TestMatrix) ... ok
+test_init_invalid (__main__.TestMatrix) ... ok
+test_init_valid (__main__.TestMatrix) ... ok
+test_mul_valid (__main__.TestMatrix) ... FAIL
+test_properties (__main__.TestMatrix) ... ok
+test_set_valid (__main__.TestMatrix) ... ok
+
+======================================================================
+FAIL: test_mul_valid (__main__.TestMatrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\jayja\OneDrive\Desktop\Jay\Poly\Session 1\INF1007\Chapitre 11\c03-ch11-3-exercices-jeromechabot\test_exercice.py", line 105, in test_mul_valid
+    self.assertEqual(output, expected)
+AssertionError: Matrix(2, 2, [403, 416, 713, 736]) != Matrix(2, 2, [776, 812, 1406, 1472])
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (failures=1)
